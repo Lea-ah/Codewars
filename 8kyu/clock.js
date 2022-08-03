@@ -14,6 +14,11 @@ function past(h, m, s){
   return Math.abs(h * 3600000) + Math.abs(m * 60000) + Math.abs(s * 1000);;
 }
 
+//REFACTORED:
+// function past(h, m, s){
+//   return ((h*3600)+(m*60)+s)*1000;
+// }
+
 // TEST:
 // describe("Fixed Tests", () => {
 //   it("Tests", () => {
